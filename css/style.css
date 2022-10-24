@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(1,0,36);
+    background: linear-gradient(356deg, rgba(1,0,36,1) 0%, rgba(9,15,121,1) 35%, rgba(0,70,255,1) 100%);
+    font-family: "Roboto";
+    height: 100%;
+    margin: 5rem;
+    text-align: center;
+}
+
+body h1{
+    color: aliceblue;
+    letter-spacing: 5px;
+    margin: 3rem;
+    text-transform: uppercase;
+}
+
+.card{
+    align-items: center;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 2rem 4rem;
+    width: 300px;
+}
+
+.card h2{
+    color: aliceblue;
+}
+
+.principal{
+    color: aliceblue;
+    margin: 1rem auto;
+}
+
+.principal input{
+    margin: 0.5rem auto;
+}
+
+.btn-calcular{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-calcular:hover{
+    transform: translateY(-5px);
+}
+
+#resultado{
+    margin: 1rem auto;
+}

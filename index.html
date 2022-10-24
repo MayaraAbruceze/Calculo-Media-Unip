@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média Unip</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <img src="http://unip-online.com.br/cmedia/logo.png" alt="Logo Unip">
+    <h1>Cálculo de Média Curso Tecnólogo</h1>
+    <div class="card">
+        <h2>Tecnólogo</h2>
+        <div class="principal">
+            <label for="nota-prova">Nota <span>Prova</span></label><br>
+            <input type="number" id="nota-prova" size="2"><br>
+
+            <label for="nota-pim">Nota <span>Pim</span></label><br>
+            <input type="number" id="nota-pim" size="2"><br>
+
+            <label for="nota-ava">Nota <span>Ava</span></label><br>
+            <input type="number" id="nota-ava" size="2"><br>
+
+            <button class="btn-calcular" type="submit" onclick="calcular()">Calcular Média</button>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
